@@ -304,3 +304,18 @@ footer a {
         margin-left: 1.5%;
     }
 }
+
+@media print {
+    body {
+      background: transparent;
+      font-size: 1em;
+    }
+  
+    header,
+    iframe,
+    footer,
+    aside,
+    section {
+      display: none;
+    }
+  }
